@@ -1,5 +1,11 @@
-node_modules/
-dist/
-
-docs/.vitepress/dist
-yarn.lock
+node_modules
+*.iml
+.idea
+*.log*
+.nuxt
+.vscode
+.DS_Store
+coverage
+dist
+sw.*
+.env

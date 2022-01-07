@@ -1,0 +1,10 @@
+{
+  "title": "Bookshleves",
+  "url": "https://bookshelves.ink/",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "Bookshelves",
+  "twitter": "@ewilanriviere"
+}

@@ -1,18 +1,27 @@
-# vitepress-starter
- vitepress-starter
+# bookshelves-doc-nuxt
 
-## Usage
+## Setup
 
-### 1. Download this repository
+Install dependencies:
+
+```bash
+yarn install
 ```
-git clone https://github.com/bekaku/vitepress-starter my-app
+
+## Development
+
+```bash
+yarn dev
 ```
 
-Repository will be downloaded into `my-app/` folder
+## Static Generation
 
-## Getting Started
+This will create the `dist/` directory for publishing to static hosting:
 
-1. Clone this repo
-2. `npm install` or `yarn install`
-3. `npm run docs:dev` or `yarn docs:dev`
-4. `npm run docs:build` or `yarn docs:build`
+```bash
+yarn generate
+```
+
+To preview the static generated app, run `yarn start`
+
+For detailed explanation on how things work, checkout [nuxt/content](https://content.nuxtjs.org) and [@nuxt/content theme docs](https://content.nuxtjs.org/themes-docs).
