@@ -1,0 +1,9 @@
+body {
+  overflow-y: scroll;
+}
+article {
+  min-height: 70vh;
+}
+pre {
+  scrollbar-width: thin;
+}

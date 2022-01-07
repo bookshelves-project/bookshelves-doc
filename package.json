@@ -1,9 +1,9 @@
 {
-  "name": "bookshelves-doc-nuxt",
+  "name": "bookshelves-doc",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --port=3001",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
